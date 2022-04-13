@@ -62,7 +62,7 @@ async def start(client, message):
         await message.reply_chat_action("Typing")
         m=await message.reply_sticker("𝖢𝗋𝖾𝖽𝗂𝗍:[𝖺𝗃𝖺𝗑](https://t.me/Devil0Bot_𝖡𝗈𝗍")
 
-𝖫𝗂𝗄𝖾 𝗍𝗁𝗂𝗌) 
+
         await asyncio.sleep(2)
         await m.delete()
         return
