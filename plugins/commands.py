@@ -60,7 +60,7 @@ async def start(client, message):
             parse_mode='html'
         )
         await message.reply_chat_action("Typing")
-        m=await message.reply_Text("𝖢𝗋𝖾𝖽𝗂𝗍:[𝖺𝗃𝖺𝗑](https://t.me/Devil0Bot_𝖡𝗈𝗍")
+        m=await message.repl_sticker("CAACAgUAAxkBAAEJZSJiWHMEDy-J9kG3QJH0zab1DD80owACFQEAAsiUZBRmRDCipxVsEx4E")
 
 
         await asyncio.sleep(2)
