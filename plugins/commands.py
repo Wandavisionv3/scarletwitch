@@ -100,17 +100,18 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAEJZSJiWHMEDy-J9kG3QJH0zab1DD80owACFQEAAsiUZBRmRDCipxVsEx4E") 
-        await asyncio.sleep(2)
-        await m.delete()
+        ]]  
+        await message.reply_chat_action("typing")
+        m=await message.reply("<b>𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙿𝙻𝙴𝙰𝚂𝙴 ›› [𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉](https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA)</b>") 
+        await asyncio.sleep(4)
+        await m.delete()       
+        reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
+        )
         )
         return
     data = message.command[1]
