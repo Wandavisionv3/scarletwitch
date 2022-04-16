@@ -112,7 +112,6 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        )
         return
     data = message.command[1]
     try:
