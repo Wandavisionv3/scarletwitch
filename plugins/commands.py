@@ -101,7 +101,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
         ]]  
         await message.reply_chat_action("typing")
-        m=await message.reply("<b>𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙿𝙻𝙴𝙰𝚂𝙴 ›› [𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉](https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA)</b>") 
+        m=await message.reply("<b>𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙿𝙻𝙴𝙰𝙴 ›› [𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉](https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA)</b>") 
         await asyncio.sleep(2)
         await m.delete()       
         reply_markup = InlineKeyboardMarkup(buttons)        
