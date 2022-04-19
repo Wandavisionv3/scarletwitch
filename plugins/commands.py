@@ -64,6 +64,11 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+        await message.reply_chat_action("typing")
+        m=await message.reply("<b>𝖴𝖯𝖣𝖠𝖳𝖤 𝖢𝖧𝖠𝖭𝖭𝖤𝖫›› [𝖬𝖮𝖵𝖨𝖤-𝖢𝖮𝖬𝖯𝖠𝖭𝖸](https://t.me/+hpnKBqJC_cQ3ZjU1)</b>")
+
+        await asyncio.sleep(2)
+        await m.delete()
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
