@@ -414,7 +414,7 @@ To Get Sticker ID
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙾𝙽 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>"""
 
-     SOURCE_TXT = """ <b>Ahda mone ippo kittum</b>
+    SOURCE_TXT = """ <b>Ahda mone ippo kittum</b>
 
 <b>Njnee 2,3 month yeduthu kashtapettu indakitha...</b>
 
