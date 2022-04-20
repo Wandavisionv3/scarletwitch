@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1')
+                InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1')
             ],
             [
-                InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('♻️ HELP ♻️', callback_data='help')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -67,7 +67,7 @@ async def start(client, message):
             parse_mode='html'
         )
         await message.reply_chat_action("typing")
-        m=await message.reply("<b>𝖴𝖯𝖣𝖠𝖳𝖤 𝖢𝖧𝖠𝖭𝖭𝖤𝖫›› [𝖬𝖮𝖵𝖨𝖤-𝖢𝖮𝖬𝖯𝖠𝖭𝖸](https://t.me/+hpnKBqJC_cQ3ZjU1)</b>")
+        m=await message.reply_sticker("CAACAgIAAxkBAAJz7GJe1cWeTB61Q3UCacX47XTjKiI_AAJ7AwACfvLFDJEhQi0JTzIDHgQ")
 
         await asyncio.sleep(2)
         await m.delete()
@@ -108,8 +108,8 @@ async def start(client, message):
             InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
         ]]  
         await message.reply_chat_action("typing")
-        m=await message.reply("<b>𝖴𝖯𝖣𝖠𝖳𝖤 𝖢𝖧𝖠𝖭𝖭𝖤𝖫›› [𝖬𝖮𝖵𝖨𝖤-𝖢𝖮𝖬𝖯𝖠𝖭𝖸](https://t.me/+hpnKBqJC_cQ3ZjU1)</b>") 
-        await asyncio.sleep(2)
+        m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
+        await asyncio.sleep(1)
         await m.delete()       
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -118,6 +118,11 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+        await message.reply_chat_action("typing")
+        m=await message.reply_sticker("CAACAgIAAxkBAAJz7GJe1cWeTB61Q3UCacX47XTjKiI_AAJ7AwACfvLFDJEhQi0JTzIDHgQ")
+
+        await asyncio.sleep(2)
+        await m.delete()
         return
     data = message.command[1]
     try:
