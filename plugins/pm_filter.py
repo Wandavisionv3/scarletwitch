@@ -704,15 +704,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ᗩDD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
-            InlineKeyboardButton('💠 GROUP 💠', url='https://t.me/+JLuNC2rGfgQ0OGRl')
+            InlineKeyboardButton('🍂 CHANNEL 🍂', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
+            InlineKeyboardButton('🍄 GROUP 🍄', url='https://t.me/+JLuNC2rGfgQ0OGRl')
             ],[      
-            InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ᗩBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🌪️ HELP 🌪️', callback_data='help'),
+            InlineKeyboardButton('🏔️ ᗩBOUT 🏔️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 SEᗩRCH ᕼERE 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🌳 SEᗩRCH ᕼERE 🌳', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔐 CLOSE AND EXIT 🔐', callback_data='close_data')
+            InlineKeyboardButton('💫 CLOSE AND EXIT 💫', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -840,9 +840,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🌌 STᗩTUS 🌌', callback_data='stats'),
             InlineKeyboardButton('♥️ SOURCE CODE ♥️', callback_data='sourc')
             ],[
-            InlineKeyboardButton('💠 Series World™ 💠', url='https://t.me/+NR_IuHAcY8wzMmU1')
+            InlineKeyboardButton('🌀 Series World™ 🌀', url='https://t.me/+NR_IuHAcY8wzMmU1')
             ],[
-            InlineKeyboardButton('♻️ HELP & COMMᗩNDS♻️', callback_data='help')
+            InlineKeyboardButton('❄️ HELP & COMMᗩNDS ❄️', callback_data='help')
             ],[
             InlineKeyboardButton('🏠 HOME 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 CLOSE 🔐', callback_data='close_data')
