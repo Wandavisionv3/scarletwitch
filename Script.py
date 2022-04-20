@@ -421,5 +421,6 @@ To Get Sticker ID
 <b>atoke njn ini nigalkk veruthe taranolee.!</b>
 <b>nadakula makalee</b>
 
-<b>venel edit aki tara korachu yela features indavunn vicharikanda 
+<b>venel edit aki tara korachu
+yela features indavunn vicharikanda 
 Venel <a href=https://t.me/ownerzzzz>JUST CLICK ME</a></b></b>"""
