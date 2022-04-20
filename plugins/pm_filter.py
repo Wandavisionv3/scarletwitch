@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('🌌 STᗩTUS 🌌', callback_data='stats'),
-            InlineKeyboardButton('♥️ SOURCE CODE ♥️', url='https://t.me/+pHDWKVnWAvQ3NWI1')
+            InlineKeyboardButton('♥️ SOURCE CODE ♥️', callback_data='sourc')
             ],[
             InlineKeyboardButton('💠 SEᗩRCH HERE 💠', switch_inline_query_current_chat='')
             ],[
@@ -887,6 +887,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+
     elif query.data == "whois":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
@@ -904,6 +905,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CORONA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "sourc":
+        buttons = [[
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
