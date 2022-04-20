@@ -702,15 +702,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ᗩDD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
-            InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+JLuNC2rGfgQ0OGRl')
+            InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
+            InlineKeyboardButton('💠 GROUP 💠', url='https://t.me/+JLuNC2rGfgQ0OGRl')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ ᗩBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 SEᗩRCH ᕼᗴᖇᗴ 💠', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -750,73 +750,71 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('MᗩNUAL FILTER', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᗩUTO FILTER', callback_data='autofilter'),
-            InlineKeyboardButton('CONNECTIONS', callback_data='coct')
+            InlineKeyboardButton('🏔️ MᗩNUAL FILTER 🏔️', callback_data='manuelfilter'),
+            InlineKeyboardButton('🍀 ᗩUTO FILTER 🍀', callback_data='autofilter'),
+            InlineKeyboardButton('💫 CONNECTIONS 💫', callback_data='coct')
             ],[
-            InlineKeyboardButton('SONG', callback_data='songs'),
-            InlineKeyboardButton('EXTR', callback_data='extra'),
-            InlineKeyboardButton("VIDEO", callback_data='video')
+            InlineKeyboardButton('✨ SONG ✨', callback_data='songs'),
+            InlineKeyboardButton('⛄ EXTRᗩ ⛄', callback_data='extra'),
+            InlineKeyboardButton("📽️ VIDEO 📽️", callback_data='video')
             ],[
-            InlineKeyboardButton('PIN', callback_data='pin'), 
-            InlineKeyboardButton('PᗩSTE', callback_data='pastes'),
-            InlineKeyboardButton("IMAGE", callback_data='image')
+            InlineKeyboardButton('📌 PIN 📌', callback_data='pin'), 
+            InlineKeyboardButton('🪥 PᗩSTE 🪥', callback_data='pastes'),
+            InlineKeyboardButton("🌁 IMAGE 🌁", callback_data='image')
             ],[
-            InlineKeyboardButton('FUN', callback_data='fun'), 
-            InlineKeyboardButton('JSONE', callback_data='son'),
-            InlineKeyboardButton('TTS', callback_data='ttss')
+            InlineKeyboardButton('🐑 FUN 🐑', callback_data='fun'), 
+            InlineKeyboardButton('🦚 JSONE 🦚', callback_data='son'),
+            InlineKeyboardButton('🐼 TTS 🐼', callback_data='ttss')
             ],[
-            InlineKeyboardButton('PURGE', callback_data='purges'),
-            InlineKeyboardButton('PING', callback_data='pings'),
-            InlineKeyboardButton('TELEGRᗩPH', callback_data='tele')
+            InlineKeyboardButton('⭐ PURGE ⭐', callback_data='purges'),
+            InlineKeyboardButton('☁️ PING ☁️', callback_data='pings'),
+            InlineKeyboardButton('☃️ TELEGRᗩPH ☃️', callback_data='tele')
             ],[
-            InlineKeyboardButton('WHOIS', callback_data='whois'),
-            InlineKeyboardButton('MUTE', callback_data='restric'),
-            InlineKeyboardButton('KICK', callback_data='zombies')
+            InlineKeyboardButton('🌀 WHOIS 🌀', callback_data='whois'),
+            InlineKeyboardButton('🌲 MUTE 🌲', callback_data='restric'),
+            InlineKeyboardButton('🦜 KICK 🦜', callback_data='zombies')
             ],[
-            InlineKeyboardButton('REPORT', callback_data='report'),
-            InlineKeyboardButton('YT-THUMB', callback_data='ytthumb'),
-            InlineKeyboardButton('STICKER-ID', callback_data='sticker')
+            InlineKeyboardButton('❄️ REPORT ❄️', callback_data='report'),
+            InlineKeyboardButton('🐥 YT-THUMB 🐥', callback_data='ytthumb'),
+            InlineKeyboardButton('🍃 STICKER-ID 🍃', callback_data='sticker')
             ],[
-            InlineKeyboardButton('COVID', callback_data='corona'),
-            InlineKeyboardButton('ᗩUDIO-BOOK', callback_data='abook'),
-            InlineKeyboardButton('URL-SHORT', callback_data='urlshort')
+            InlineKeyboardButton('🦠 COVID 🦠', callback_data='corona'),
+            InlineKeyboardButton('🎙️ ᗩUDIO-BOOK 🎙️', callback_data='abook'),
+            InlineKeyboardButton('🔗 URL-SHORT 🔗', callback_data='urlshort')
             ],[
-            InlineKeyboardButton('G-TRᗩNS', callback_data='gtrans'),
-            InlineKeyboardButton('FILE-STORE', callback_data='newdata'),
-            InlineKeyboardButton('STᗩTUS', callback_data='stats')
+            InlineKeyboardButton('🌳 G-TRᗩNS 🌳', callback_data='gtrans'),
+            InlineKeyboardButton('🗃️ FILE-STORE 🗃️', callback_data='newdata'),
+            InlineKeyboardButton('🌌 STᗩTUS 🌌', callback_data='stats')
             ],[
-            InlineKeyboardButton('CᗩRBON🚗', callback_data='carbon')
+            InlineKeyboardButton('🚗 CᗩRBON 🚗', callback_data='carbon')
             ],[
-            InlineKeyboardButton('⚚ BᗩCK ⚚', callback_data='start')
+            InlineKeyboardButton('⚚ BᗩCK ⚚', callback_data='start'),
+            InlineKeyboardButton('🔐 CLOSE 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="⸽h⸽"
+            text="Ｈ"
         )
         await query.message.edit_text(
-            text=""
+            text="ＨＩ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽"
+            text="ＨＩＣ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽"
+            text="ＨＩＣＨ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽⸽h⸽"
+            text="ＨＩＣＨＯ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽⸽h⸽⸽o⸽"
-        )
-        await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽⸽h⸽⸽o⸽⸽z⸽"
+            text="ＨＩＣＨＯＺ"
         )
         await query.message.edit_text(
             text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
         )
         await query.message.edit_text(
-            text="⸽H⸽⸽I⸽⸽C⸽⸽H⸽⸽O⸽⸽Z⸽ ⸽B⸽⸽O⸽⸽T⸽"
+            text="ＨＩＣＨＯＺ-ＢＯＴ"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -825,43 +823,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('STᗩTUS', callback_data='stats'),
-            InlineKeyboardButton('♥️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ♥️', url='https://t.me/+pHDWKVnWAvQ3NWI1')
+            InlineKeyboardButton('🌌 STᗩTUS 🌌', callback_data='stats'),
+            InlineKeyboardButton('♥️ SOURCE CODE ♥️', url='https://t.me/+pHDWKVnWAvQ3NWI1')
             ],[
-            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 SEᗩRCH HERE 💠', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ & COMMANDS♻️', callback_data='help')
+            InlineKeyboardButton('♻️ HELP & COMMᗩNDS♻️', callback_data='help')
             ],[
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
+            InlineKeyboardButton('🏠 HELP 🏠', callback_data='start'),
+            InlineKeyboardButton('🔐 CLOSE 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="⸽h⸽"
+            text="Ｈ"
         )
         await query.message.edit_text(
-            text=""
+            text="ＨＩ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽"
+            text="ＨＩＣ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽"
+            text="ＨＩＣＨ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽⸽h⸽"
+            text="ＨＩＣＨＯ"
         )
         await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽⸽h⸽⸽o⸽"
-        )
-        await query.message.edit_text(
-            text="⸽h⸽⸽i⸽⸽c⸽⸽h⸽⸽o⸽⸽z⸽"
+            text="ＨＩＣＨＯＺ"
         )
         await query.message.edit_text(
             text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
         )
         await query.message.edit_text(
-            text="⸽H⸽⸽I⸽⸽C⸽⸽H⸽⸽O⸽⸽Z⸽ ⸽B⸽⸽O⸽⸽T⸽"
+            text="ＨＩＣＨＯＺ-ＢＯＴ"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
