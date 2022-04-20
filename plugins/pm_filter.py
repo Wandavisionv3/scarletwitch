@@ -711,6 +711,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ ᗩBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💠 SEᗩRCH ᕼᗴᖇᗴ 💠', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('🔐 CLOSE AND EXIT 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
