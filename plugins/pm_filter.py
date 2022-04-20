@@ -828,7 +828,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🌌 STᗩTUS 🌌', callback_data='stats'),
             InlineKeyboardButton('♥️ SOURCE CODE ♥️', callback_data='sourc')
             ],[
-            InlineKeyboardButton('💠 SEᗩRCH HERE 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 Series World™ 💠', url='https://t.me/+NR_IuHAcY8wzMmU1')
             ],[
             InlineKeyboardButton('♻️ HELP & COMMᗩNDS♻️', callback_data='help')
             ],[
