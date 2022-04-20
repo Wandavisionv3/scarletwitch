@@ -422,4 +422,4 @@ To Get Sticker ID
 <b>nadakula makalee</b>
 
 <b>venel edit aki tara korachu yela features indavunn vicharikanda 
-Venel [just click me](https://t.me/ownerzzzz)</b>"""
+Venel <a href=https://t.me/ownerzzzz>JUST CLICK ME</a></b></b>"""
