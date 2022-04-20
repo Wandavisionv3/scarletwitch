@@ -413,3 +413,13 @@ To Get Sticker ID
 <b>/carbon ›› 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰𝙽𝚈 𝚃𝙴𝚇𝚃 𝙼𝙴𝚂𝚂𝙰𝙶𝙴</b>
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙾𝙽 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>"""
+
+     SOURCE_TXT = """<b>Ahda mone ippo kittum</b>
+
+<b>Njnee 2,3 month yeduthu kashtapettu indakitha...</b>
+
+<b>atoke njn ini nigalkk veruthe taranolee.!</b>
+<b>nadakula makalee</b>
+
+<b>venel edit aki tara korachu yela features indavunn vicharikanda 
+Venel [just click me](https://t.me/ownerzzzz)</b>"""
