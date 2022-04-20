@@ -69,7 +69,7 @@ async def start(client, message):
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgIAAxkBAAJz7GJe1cWeTB61Q3UCacX47XTjKiI_AAJ7AwACfvLFDJEhQi0JTzIDHgQ")
 
-        await asyncio.sleep(2)
+        await asyncio.sleep(.25)
         await m.delete()
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
@@ -121,7 +121,7 @@ async def start(client, message):
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgIAAxkBAAJz7GJe1cWeTB61Q3UCacX47XTjKiI_AAJ7AwACfvLFDJEhQi0JTzIDHgQ")
 
-        await asyncio.sleep(2)
+        await asyncio.sleep(.25)
         await m.delete()
         return
     data = message.command[1]
