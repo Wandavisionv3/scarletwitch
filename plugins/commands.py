@@ -44,15 +44,15 @@ async def start(client, message):
         buttons = [[
                      InlineKeyboardButton('⚚ ᗩDD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎬 CHANNEL 🎬', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
-            InlineKeyboardButton('🎥 GROUP 🎥', url='https://t.me/+JLuNC2rGfgQ0OGRl')
-            ],[      
-            InlineKeyboardButton('⚙ HELP ⚙', callback_data='help'),
-            InlineKeyboardButton('🦾 ᗩBOUT 🦾', callback_data='about')
+            InlineKeyboardButton(' CHᗩNNEL📡', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
+            InlineKeyboardButton(' GROUP⭐ ', url='https://t.me/+JLuNC2rGfgQ0OGRl')
             ],[
-            InlineKeyboardButton('🔍 SEᗩRCH ᕼERE 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('HELP🐥', callback_data='help'),
+            InlineKeyboardButton(' ᗩBOUT🛰 ', callback_data='about')
             ],[
-            InlineKeyboardButton('🚪 CLOSE AND EXIT 🚪', callback_data='close_data')
+            InlineKeyboardButton(' SEᗩRCH HERE🔎 ', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton(' CLOSE AND EXIT 🚪', callback_data='close_data')
         ]]
         await message.reply_chat_action("typing")
         m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
