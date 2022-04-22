@@ -764,7 +764,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('NEXT', url='2')
+            InlineKeyboardButton('NEXT', callback_data='2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -788,7 +788,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('NEXT', url='3')
+            InlineKeyboardButton('NEXT', callback_data='3')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -812,7 +812,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('NEXT', url='2')
+            InlineKeyboardButton('NEXT', callback_data='2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -835,7 +835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('NEXT', url='4')
+            InlineKeyboardButton('NEXT', callback_data='4')
         ]]     
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
