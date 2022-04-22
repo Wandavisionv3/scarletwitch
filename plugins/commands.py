@@ -54,10 +54,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton(' CLOSE AND EXIT 🚪', callback_data='close_data')
         ]]
-        await message.reply_chat_action("typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAELhppiYBUEPKILlO95eIEAAZIK1EE7NncAAoYEAAJQeAFXKh7d3YIIQb4eBA") 
-        await asyncio.sleep(1) 
-        await m.delete() 
+        await message.reply_chat_action("typing") 
+        m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
+
+        await asyncio.sleep(1.85) 
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -67,7 +67,7 @@ async def start(client, message):
         )
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgIAAxkBAAJz7GJe1cWeTB61Q3UCacX47XTjKiI_AAJ7AwACfvLFDJEhQi0JTzIDHgQ")
-        await asyncio.sleep(1)
+        await asyncio.sleep(.23)
         await m.delete()
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
@@ -105,10 +105,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
         ]]  
-        await message.reply_chat_action("typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAELhppiYBUEPKILlO95eIEAAZIK1EE7NncAAoYEAAJQeAFXKh7d3YIIQb4eBA")
-        await asyncio.sleep(1) 
-        await m.delete() 
+        await message.reply_chat_action("typing") 
+        m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
+        await asyncio.sleep(1.85)
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -118,7 +117,7 @@ async def start(client, message):
         )
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgIAAxkBAAJz7GJe1cWeTB61Q3UCacX47XTjKiI_AAJ7AwACfvLFDJEhQi0JTzIDHgQ")
-        await asyncio.sleep(1)
+        await asyncio.sleep(.23)
         await m.delete()
         return
     data = message.command[1]
