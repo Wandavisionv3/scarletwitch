@@ -55,7 +55,7 @@ async def start(client, message):
             InlineKeyboardButton(' ■CLOSE AND EXIT ■', callback_data='close_data')
         ]]
         await message.reply_chat_action("typing") 
-        m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
+        m=await message.reply_sticker(sticker="CAACAgQAAxkBAAEL5tFiY3oBpm4OvDv6obeUkBpTW7agHgACeAMAAv4zDQbsHeCqycyShx4E") 
 
         await asyncio.sleep(1.85) 
         await m.delete()
@@ -109,7 +109,7 @@ async def start(client, message):
             InlineKeyboardButton(' ■CLOSE AND EXIT ■', callback_data='close_data')
         ]]
         await message.reply_chat_action("typing") 
-        m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
+        m=await message.reply_sticker(sticker="CAACAgQAAxkBAAEL5tFiY3oBpm4OvDv6obeUkBpTW7agHgACeAMAAv4zDQbsHeCqycyShx4E") 
         await asyncio.sleep(1.85)
         await m.delete()
         reply_markup = InlineKeyboardMarkup(buttons)        
