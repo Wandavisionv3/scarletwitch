@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('❀𝙼𝚄𝚃𝙴❀', callback_data='restric'),
             InlineKeyboardButton('❁𝙺𝙸𝙲𝙺❁', callback_data='zombies')
             ],[
-            InlineKeyboardButton('✪ 𝙱𝙰𝙲𝙺 ✪', callback_data='start'),
+            InlineKeyboardButton('✪ 𝙱𝙰𝙲𝙺 ✪', callback_data='4'),
             InlineKeyboardButton('🕸️𝚂𝚃𝙰𝚃𝚄𝚂🕸️', callback_data='stats'),
             InlineKeyboardButton('➳NEXT➳', callback_data='3')
         ]]
@@ -911,9 +911,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ꕥ𝙶-𝚃𝚁𝙰𝙽𝚂ꕥ', callback_data='gtrans'),
             InlineKeyboardButton('❉𝙿𝙰𝚂𝚃𝙴❉', callback_data='pastes'),
             ],[
-            InlineKeyboardButton('✪ 𝙱𝙰𝙲𝙺 ✪', callback_data='start'),
+            InlineKeyboardButton('✪ 𝙱𝙰𝙲𝙺 ✪', callback_data='2'),
             InlineKeyboardButton('🕸️𝚂𝚃𝙰𝚃𝚄𝚂🕸️', callback_data='stats'),
-            InlineKeyboardButton('➳NEXT➳', callback_data='4')
+            InlineKeyboardButton('♧HOME♧', callback_data='start')
         ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
