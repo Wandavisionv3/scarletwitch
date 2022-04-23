@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 CHANNEL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1')
+                InlineKeyboardButton('💠 CHANNEL 💠', url='https://Newcinemazz')
             ],
             [
                 InlineKeyboardButton('♻️ HELP ♻️', callback_data='help')
@@ -42,17 +42,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                     InlineKeyboardButton('⚚ ᗩDD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                     InlineKeyboardButton('☆ ᗩDD ME TO YOUR GROUP ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton(' CHᗩNNEL📡', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
-            InlineKeyboardButton(' GROUP⭐ ', url='https://t.me/+JLuNC2rGfgQ0OGRl')
+            InlineKeyboardButton(' ♤CHᗩNNEL♤', url='https://t.me/Newcinemazz'),
+            InlineKeyboardButton(' ◇GROUP◇ ', url='https://t.me/cinemakottakatwo')
             ],[
-            InlineKeyboardButton('HELP🐥', callback_data='help'),
-            InlineKeyboardButton(' ᗩBOUT🛰 ', callback_data='about')
+            InlineKeyboardButton('♡HELP♡', callback_data='help'),
+            InlineKeyboardButton(' ●ᗩBOUT● ', callback_data='about')
             ],[
-            InlineKeyboardButton(' SEᗩRCH HERE🔎 ', switch_inline_query_current_chat='')
+            InlineKeyboardButton(' ○SEᗩRCH HERE○ ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton(' CLOSE AND EXIT 🚪', callback_data='close_data')
+            InlineKeyboardButton(' ■CLOSE AND EXIT ■', callback_data='close_data')
         ]]
         await message.reply_chat_action("typing") 
         m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
@@ -96,16 +96,18 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('☆ ᗩDD ME TO YOUR GROUP ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1'),
-            InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+JLuNC2rGfgQ0OGRl')
+            InlineKeyboardButton(' ♤CHᗩNNEL♤ ', url='https://t.me/Newcinemazz'),
+            InlineKeyboardButton(' ◇GROUP◇ ', url='https://t.me/cinemakottakatwo')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♡HELP♡', callback_data='help'),
+            InlineKeyboardButton(' ●ᗩBOUT● ', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
-        ]]  
+            InlineKeyboardButton(' ○SEᗩRCH HERE○ ', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton(' ■CLOSE AND EXIT ■', callback_data='close_data')
+        ]]
         await message.reply_chat_action("typing") 
         m=await message.reply_sticker(sticker="CAACAgUAAxkBAAI1_2Hnz0usiwmy7XolQ0i-HoCp7AABhgACFQEAAsiUZBRmRDCipxVsEx4E") 
         await asyncio.sleep(1.85)
