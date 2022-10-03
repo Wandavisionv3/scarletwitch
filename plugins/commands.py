@@ -45,7 +45,7 @@ async def start(client, message):
                      InlineKeyboardButton('✣ ᗩDD ME TO YOUR GROUP ✣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton(' ❉CHᗩNNEL❉', url='https://t.me/Newcinemazz'),
-            InlineKeyboardButton(' ❈GROUP❈ ', url='https://t.me/cinemakottakatwo')
+            InlineKeyboardButton(' ❈GROUP❈ ', url='https://t.me/cinemakottakatwo00')
             ],[
             InlineKeyboardButton('✹HELP✹', callback_data='help'),
             InlineKeyboardButton(' ✺ᗩBOUT✺ ', callback_data='about')
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('✣ ᗩDD ME TO YOUR GROUP ✣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton(' ❉CHᗩNNEL❉ ', url='https://t.me/Newcinemazz'),
-            InlineKeyboardButton(' ❈GROUP❈ ', url='https://t.me/cinemakottakatwo')
+            InlineKeyboardButton(' ❈GROUP❈ ', url='https://t.me/cinemakottakatwo00')
             ],[      
             InlineKeyboardButton('✹HELP✹', callback_data='help'),
             InlineKeyboardButton(' ✺ᗩBOUT✺ ', callback_data='about')
