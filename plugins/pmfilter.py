@@ -705,7 +705,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✣ ᗩDD ME TO YOUR GROUP ✣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('❉CHᗩNNEL❉', url='https://t.me/Newcinemazz'),
-            InlineKeyboardButton(' ❈GROUP❈ ', url='https://t.me/cinemakottakatwo')
+            InlineKeyboardButton(' ❈GROUP❈ ', url='https://t.me/cinemakottakatwo00')
             ],[      
             InlineKeyboardButton('✹HELP✹', callback_data='help'),
             InlineKeyboardButton(' ✺ᗩBOUT✺ ', callback_data='about')
@@ -746,26 +746,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons) 
         await query.message.edit_text( 
-            text="Ⓟ○○○○🌸"
+            text="❃✾✾✾✾🌸"
         ) 
         await query.message.edit_text(
-            text="ⓅⒶ○○○🌸" 
+            text="❃❃✾✾✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇ○○🌸"
+            text="❃❃❃✾✾🌸"
         )
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃ○🌸"
+            text="❃❃❃❃✾🌸"
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃⒶ🌸"
+            text="❃❃❃❃❃🌸"
         ) 
         await query.message.edit_text( 
 
             text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
         ) 
         await query.message.edit_text(
-            text="Ꮐᖇᗴᗴᑎ ᏞᗩᑎᎢᕼᗴᖇᑎ 🐉" 
+            text="ᔑᑕᗩᖇᏞᗴᎢ ᗯᏆᎢᑕᕼ 🦹‍♀" 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -793,22 +793,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text( 
-            text="Ⓟ○○○○🌸" 
+            text="❃✾✾✾✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶ○○○🌸" 
-        ) 
-        await query.message.edit_text(
-            text="ⓅⒶⓇ○○🌸" 
+            text="❃❃✾✾✾🌸" 
         ) 
         await query.message.edit_text(
-            text="ⓅⒶⓇⓃ○🌸" 
+            text="❃❃❃✾✾🌸" 
+        ) 
+        await query.message.edit_text(
+            text="❃❃❃❃✾🌸" 
         )
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃⒶ🌸" 
+            text="❃❃❃❃❃🌸" 
         )
         await query.message.edit_text( 
-            text="Ꮐᖇᗴᗴᑎ ᏞᗩᑎᎢᕼᗴᖇᑎ 🐉" 
+            text="ᔑᑕᗩᖇᏞᗴᎢ ᗯᏆᎢᑕᕼ 🦹‍♀" 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -836,22 +836,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons) 
         await query.message.edit_text( 
-            text="Ⓟ○○○○🌸" 
+            text="❃✾✾✾✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶ○○○🌸"
+            text="❃❃✾✾✾🌸"
         )
         await query.message.edit_text( 
-            text="ⓅⒶⓇ○○🌸" 
+            text="❃❃❃✾✾🌸" 
         )
         await query.message.edit_text(
-            text="ⓅⒶⓇⓃ○🌸" 
+            text="❃❃❃❃✾🌸" 
         ) 
         await query.message.edit_text(
-            text="ⓅⒶⓇⓃⒶ🌸" 
+            text="❃❃❃❃❃🌸" 
         )
         await query.message.edit_text( 
-            text="Ꮐᖇᗴᗴᑎ ᏞᗩᑎᎢᕼᗴᖇᑎ 🐉" 
+            text="ᔑᑕᗩᖇᏞᗴᎢ ᗯᏆᎢᑕᕼ 🦹‍♀" 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -879,22 +879,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons) 
         await query.message.edit_text( 
-            text="Ⓟ○○○○🌸" 
+            text="❃✾✾✾✾🌸" 
         )
         await query.message.edit_text( 
-            text="ⓅⒶ○○○🌸"
+            text="❃❃✾✾✾🌸"
         )
         await query.message.edit_text(
-            text="ⓅⒶⓇ○○🌸" 
+            text="❃❃❃✾✾🌸" 
         )
         await query.message.edit_text(
-            text="ⓅⒶⓇⓃ○🌸" 
+            text="❃❃❃❃✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃⒶ🌸" 
+            text="❃❃❃❃❃🌸" 
         )
         await query.message.edit_text(
-            text="Ꮐᖇᗴᗴᑎ ᏞᗩᑎᎢᕼᗴᖇᑎ 🐉" 
+            text="ᔑᑕᗩᖇᏞᗴᎢ ᗯᏆᎢᑕᕼ 🦹‍♀" 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(          
@@ -921,26 +921,26 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="Ⓟ○○○○🌸" 
+            text="❃✾✾✾✾🌸" 
         ) 
         await query.message.edit_text(
-            text="ⓅⒶ○○○🌸"
+            text="❃❃✾✾✾🌸"
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇ○○🌸" 
+            text="❃❃❃✾✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃ○🌸" 
+            text="❃❃❃❃✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃⒶ🌸" 
+            text="❃❃❃❃❃🌸" 
         )
         await query.message.edit_text( 
-            text="Ꮐᖇᗴᗴᑎ ᏞᗩᑎᎢᕼᗴᖇᑎ 🐉" 
+            text="ᔑᑕᗩᖇᏞᗴᎢ ᗯᏆᎢᑕᕼ 🦹‍♀" 
         )
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
-            text="ⓅⒶⓇⓃⒶ🌼"
+            text="🇼 🇪 🇱 🇨 🇴 🇲 🇪 ❤"
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -956,22 +956,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons) 
         await query.message.edit_text( 
-            text="Ⓟ○○○○🌸"
+            text="❃✾✾✾✾🌸"
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶ○○○🌸"
+            text="❃❃✾✾✾🌸"
         )
         await query.message.edit_text(
-            text="ⓅⒶⓇ○○🌸" 
+            text="❃❃❃✾✾🌸" 
         )
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃ○🌸" 
+            text="❃❃❃❃✾🌸" 
         ) 
         await query.message.edit_text( 
-            text="ⓅⒶⓇⓃⒶ🌸" 
+            text="❃❃❃❃❃🌸" 
         ) 
         await query.message.edit_text( 
-            text="Ꮐᖇᗴᗴᑎ ᏞᗩᑎᎢᕼᗴᖇᑎ 🐉" 
+            text="ᔑᑕᗩᖇᏞᗴᎢ ᗯᏆᎢᑕᕼ 🦹‍♀" 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
