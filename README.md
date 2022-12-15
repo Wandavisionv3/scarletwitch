@@ -64,6 +64,10 @@ You can deploy this bot anywhere.
 </a>
 </p>
 
+Deploy To Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/eW3wBL?referralCode=5Zaxei)
+
 <a href="https://youtu.be/kB9TkCs8cX0">
   <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
 </a><br>
